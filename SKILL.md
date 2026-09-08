@@ -12,6 +12,8 @@ metadata:
 
 # Image OCR to Notion
 
+[中文说明](SKILL.zh-CN.md) | English
+
 Capture text from local images or a public Xiaohongshu share link, clean it without inventing facts, and optionally save the result to Notion.
 
 ## Route the request

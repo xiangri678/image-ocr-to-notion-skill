@@ -1,5 +1,7 @@
 # Image OCR to Notion Skill
 
+[中文](README.zh-CN.md) | English
+
 An Agent Skill for acquiring local or publicly shared images, running on-device OCR with macOS Vision, cleaning the text, and optionally saving it to an authorized Notion destination.
 
 ## Contents
