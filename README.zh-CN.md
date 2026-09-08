@@ -10,6 +10,7 @@
 - `SKILL.zh-CN.md`：中文 Skill 说明
 - `scripts/`：公开页面图片下载与本地 Vision OCR 脚本
 - `references/xiaohongshu.md`：小红书公开链接限制和排障方法
+- `examples/`：本地截图和公开分享链接的完整命令示例
 - `agents/openai.yaml`：界面元数据
 
 OCR 在本机运行。公开链接下载脚本可选依赖 `curl-cffi`，不会读取浏览器 Cookie，也不会绕过访问控制。
@@ -17,6 +18,8 @@ OCR 在本机运行。公开链接下载脚本可选依赖 `curl-cffi`，不会�
 ## 使用
 
 通过兼容 Agent Skills 的客户端安装本仓库，或将仓库复制到 Agent 的 Skills 目录。OCR 需要 macOS 13 或更高版本、Python 3 与 Swift。
+
+本地截图与小红书公开链接的完整示例见 [`examples/README.md`](examples/README.md)。
 
 ## 作者
 

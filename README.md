@@ -9,6 +9,7 @@ An Agent Skill for acquiring local or publicly shared images, running on-device 
 - `SKILL.md`: end-to-end capture workflow and safety boundaries
 - `scripts/`: public-page image downloader and local Vision OCR helpers
 - `references/xiaohongshu.md`: public-link limitations and troubleshooting
+- `examples/`: complete local-image and public-share-link commands
 - `agents/openai.yaml`: UI metadata
 
 The OCR path runs locally. The optional public-link downloader requires `curl-cffi` and does not read browser cookies or bypass access controls.
@@ -16,6 +17,8 @@ The OCR path runs locally. The optional public-link downloader requires `curl-cf
 ## Use
 
 Install this repository with an Agent Skills-compatible client, or copy it into your agent's skills directory. macOS 13 or later, Python 3, and Swift are required for OCR.
+
+See [`examples/README.md`](examples/README.md) for complete local-image and public-link workflows.
 
 ## Authorship
 

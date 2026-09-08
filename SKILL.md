@@ -72,3 +72,5 @@ Before writing, show the proposed title, destination, source URL, and a short co
 - No browser profile, browser cookie, or private token was read.
 - The cleaned text contains no unsupported additions.
 - Any Notion mutation was authorized and read back.
+
+See [examples/README.md](examples/README.md) for local-image and public-share-link command sequences.
