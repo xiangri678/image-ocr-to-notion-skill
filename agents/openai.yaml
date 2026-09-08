@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image OCR to Notion"
+  short_description: "Capture image text and save it to Notion"
+  default_prompt: "Use $image-ocr-to-notion to extract text from these images and prepare a Notion page."
